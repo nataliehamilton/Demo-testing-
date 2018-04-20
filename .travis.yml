@@ -1,14 +1,10 @@
 language: node_js
 node_js:
     - "9"
-before_script: 
+before_script:
   - npm install
-jobs:
-  include:
-    - stage: test
-      script: npm run test
-    - stage: deploy
-      provider: script
-      script: node deploy.js
-      on:
-        branch: master
+deploy:
+  provider: script
+  script: node deploy.js
+  on:
+    branch: master
