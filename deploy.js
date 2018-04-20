@@ -11,6 +11,7 @@ const run = async (sha) => {
     body: {
       ref: sha,
       auto_merge: false,
+      required_contexts: [],
     },
     json: true
   })
