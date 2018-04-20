@@ -1,0 +1,24 @@
+{
+  "name": "Demo-testing-",
+  "version": "1.0.0",
+  "description": "chai mocha",
+  "main": "spec.js",
+  "scripts": {
+    "test": "mocha --opts ./mocha.opts spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaMSteele/Demo-testing-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaMSteele/Demo-testing-/issues"
+  },
+  "homepage": "https://github.com/AnaMSteele/Demo-testing-#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
