@@ -1,1 +1,10 @@
 language: node_js
+jobs:
+  include:
+    - stage: test
+      script: npm run test
+    - stage: deploy
+      provider: script
+      script: node deploy.js
+      on:
+        branch: master
