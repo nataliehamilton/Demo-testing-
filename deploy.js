@@ -1,6 +1,6 @@
 const request = require('request-promise-native');
 
-let sha = process.env.TRAVIS_PULL_REQUEST_SHA
+let sha = process.env.TRAVIS_COMMIT
 
 const run = async (sha) => {
   let response = await request.post({
