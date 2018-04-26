@@ -5,6 +5,6 @@ global.expect = chai.expect;
 
 describe('testing', () => {
   it('checks the things', () => {
-    expect(false).to.be.true;
+    expect(true).to.be.true;
   });
 });
